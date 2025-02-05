@@ -34,7 +34,8 @@ public class ModBlocks {
     }
 // The second function registers a block item so its visible in inventory
     private static <T extends Block> void registerBlockItem(String name, RegistryObject<T> block) {
-        ModItems.ITEMS.register(name,() -> new BlockItem(block.get(),new Item.Properties()));
+        ModItems.ITEMS.register(name,() -> new BlockItem(block.get(),new Item.Properties()
+                .setId(ModItems.ITEMS.key(name))));
     }
 //register in event bus
     public static void register(IEventBus eventBus) {
