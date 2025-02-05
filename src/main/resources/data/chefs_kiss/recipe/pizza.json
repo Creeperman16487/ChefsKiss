@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "chefs_kiss:dough",
+    "minecraft:cooked_steak"
+  ],
+  "result": {
+    "id": "chefs_kiss:pizza",
+    "count": 1
+  }
+}
