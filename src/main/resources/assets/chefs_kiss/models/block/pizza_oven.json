@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "chefs_kiss:block/pizza_oven"
+  }
+}
