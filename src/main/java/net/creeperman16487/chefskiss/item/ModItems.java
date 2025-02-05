@@ -1,9 +1,7 @@
 package net.creeperman16487.chefskiss.item;
 
 import net.creeperman16487.chefskiss.ChefskissMod;
-import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;

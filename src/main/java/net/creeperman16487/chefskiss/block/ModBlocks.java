@@ -2,7 +2,6 @@ package net.creeperman16487.chefskiss.block;
 
 import net.creeperman16487.chefskiss.ChefskissMod;
 import net.creeperman16487.chefskiss.item.ModItems;
-import net.minecraft.client.resources.model.Material;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;

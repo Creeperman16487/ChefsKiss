@@ -2,10 +2,10 @@
   "comment1": "This is items list",
   "item.chefs_kiss.pizza": "Pizza",
 
-  "comment2": "This is blocks list",
-  "block.chefs_kiss.pizza_oven": "Pizza Oven",
+  "blocks": "This is blocks list",
+  "item.chefs_kiss.pizza_oven": "Pizza Oven",
 
-  "comment2": "This is creative tabs list",
-  "creativetab.chefs_kiss.chefs_kiss_tab": "*ೃ༄Chef's Kiss.ೃ࿐"
+  "creative_tabs": "This is creative tabs list",
+  "creativetab.chefs_kiss.items": "*ೃ༄Chef's Kiss.ೃ࿐"
 
 }
