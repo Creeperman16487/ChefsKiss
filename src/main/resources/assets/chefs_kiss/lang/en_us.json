@@ -1,6 +1,9 @@
 {
   "comment1": "This is items list",
   "item.chefs_kiss.pizza": "Pizza",
+  "item.chefs_kiss.cooked_pizza": "Cooked Pizza",
+  "item.chefs_kiss.dough": "Dough",
+
 
   "blocks": "This is blocks list",
   "item.chefs_kiss.pizza_oven": "Pizza Oven",
