@@ -17,6 +17,13 @@ public class ModItems {
             () -> new Item(new Item.Properties()
                     .setId(ITEMS.key("pizza"))
                     .fireResistant()));
+    public static final RegistryObject<Item> COOOKED_PIZZA = registerItem("cooked_pizza",
+            () -> new Item(new Item.Properties()
+                    .setId(ITEMS.key("cooked_pizza"))
+                    .fireResistant()));
+    public static final RegistryObject<Item> DOUGH = registerItem("dough",
+            () -> new Item(new Item.Properties()
+                    .setId(ITEMS.key("dough"))));
 
     private static <T extends Item> RegistryObject<T> registerItem(String name, Supplier<T> item) {
         return ModItems.ITEMS.register(name,item);

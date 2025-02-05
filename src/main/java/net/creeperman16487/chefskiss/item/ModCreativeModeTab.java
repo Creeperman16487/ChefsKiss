@@ -21,6 +21,8 @@ public class ModCreativeModeTab {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.PIZZA.get());
                         output.accept(ModBlocks.PIZZA_OVEN.get());
+                        output.accept(ModItems.DOUGH.get());
+                        output.accept(ModItems.COOOKED_PIZZA.get());
                     })
                     .build());
 
