@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "chefs_kiss:item/pizza"
+    "model": "chefs_kiss:block/pizza_oven"
   }
 }
