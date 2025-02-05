@@ -3,7 +3,7 @@
   "category": "misc",
   "ingredients": [
     "chefs_kiss:dough",
-    "minecraft:cooked_steak"
+    "minecraft:cooked_beef"
   ],
   "result": {
     "id": "chefs_kiss:pizza",
