@@ -1,6 +1,5 @@
 package net.creeperman16487.chefskiss;
 
-import net.creeperman16487.chefskiss.block.ModBlocks;
 import net.creeperman16487.chefskiss.item.ModItems;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -18,16 +17,15 @@ public class ModCreativeModeTab {
             () -> CreativeModeTab.builder()
                     .icon(() -> ModItems.PIZZA.get().getDefaultInstance())
                     .title(Component.translatable("creativetab.chefs_kiss.items"))
-                    .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModItems.PIZZA.get());
-                        output.accept(ModBlocks.PIZZA_OVEN.get());
-                        output.accept(ModItems.DOUGH.get());
-                        output.accept(ModItems.COOOKED_PIZZA.get());
-                    })
                     .build());
-
+//                    .displayItems((itemDisplayParameters, output) -> {
+//                        output.accept(ModItems.PIZZA.get());
+//                        output.accept(ModItems.DOUGH.get());
+//                        output.accept(ModItems.COOKED_PIZZA.get());
+//                    })
     public static void register(IEventBus eventBus) {
         CREATIVE_MODE_TABS.register(eventBus);
     }
 
 }
+

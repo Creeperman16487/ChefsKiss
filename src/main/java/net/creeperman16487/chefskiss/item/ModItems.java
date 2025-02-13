@@ -21,7 +21,7 @@ public class ModItems {
                     .stacksTo(1)
                     .food(ModFoods.PIZZA)));
 
-    public static final RegistryObject<Item> COOOKED_PIZZA = registerItem("cooked_pizza",
+    public static final RegistryObject<Item> COOKED_PIZZA = registerItem("cooked_pizza",
             () -> new Item(new Item.Properties()
                     .fireResistant()
                     .stacksTo(1)
