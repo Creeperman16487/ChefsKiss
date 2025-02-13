@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "experience": 0.4,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "chefs_kiss:pizza"
+  },
+  "result": "chefs_kiss:cooked_pizza"
+}

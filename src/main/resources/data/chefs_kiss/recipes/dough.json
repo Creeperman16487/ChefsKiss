@@ -5,10 +5,12 @@
     "AA"
   ],
   "key": {
-    "A": "minecraft:milk_bucket"
+    "A": {
+      "item": "minecraft:milk_bucket"
+    }
   },
   "result": {
-    "id": "chefs_kiss:dough",
+    "item": "chefs_kiss:dough",
     "count": 1
   }
 }

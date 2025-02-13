@@ -1,7 +1,8 @@
-package net.creeperman16487.chefskiss.item;
+package net.creeperman16487;
 
 import net.creeperman16487.chefskiss.ChefskissMod;
 import net.creeperman16487.chefskiss.block.ModBlocks;
+import net.creeperman16487.chefskiss.item.ModItems;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;

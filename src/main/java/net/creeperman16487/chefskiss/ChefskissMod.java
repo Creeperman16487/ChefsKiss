@@ -2,7 +2,7 @@ package net.creeperman16487.chefskiss;
 
 import com.mojang.logging.LogUtils;
 import net.creeperman16487.chefskiss.block.ModBlocks;
-import net.creeperman16487.chefskiss.item.ModCreativeModeTab;
+import net.creeperman16487.ModCreativeModeTab;
 import net.creeperman16487.chefskiss.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
