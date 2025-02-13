@@ -2,7 +2,6 @@ package net.creeperman16487.chefskiss;
 
 import com.mojang.logging.LogUtils;
 import net.creeperman16487.chefskiss.block.ModBlocks;
-import net.creeperman16487.ModCreativeModeTab;
 import net.creeperman16487.chefskiss.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -29,7 +28,7 @@ public class ChefskissMod {
     public ChefskissMod(FMLJavaModLoadingContext context) {
         IEventBus modEventBus = context.getModEventBus();
 
-        // Register the commonSetup method for modloading
+        // Register the commonSetup method for mod loading
         modEventBus.addListener(this::commonSetup);
 
         // Register ourselves for server and other game events we are interested in
@@ -54,9 +53,11 @@ public class ChefskissMod {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
             event.accept(ModItems.PIZZA);
+            event.accept(ModItems.COOOKED_PIZZA);
+            event.accept(ModBlocks.PIZZA_BLOCK);
         }
-        if (event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
-            event.accept(ModBlocks.PIZZA_OVEN);
+        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.DOUGH);
         }
     }
 

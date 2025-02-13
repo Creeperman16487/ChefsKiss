@@ -1,10 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "chefs_kiss:block/pizza_oven"
-    },
-    "nigga": {
-      "model": "chefs_kiss:item/pizza"
+      "model": "chefs_kiss:block/pizza_block"
     }
   }
 }

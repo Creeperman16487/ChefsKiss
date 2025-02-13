@@ -16,7 +16,7 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, ChefskissMod.MOD_ID);
 
-    public static final RegistryObject<Block> PIZZA_OVEN = registerBlock("pizza_oven",
+    public static final RegistryObject<Block> PIZZA_BLOCK = registerBlock("pizza_block",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(2f)
                     .requiresCorrectToolForDrops()

@@ -1,6 +1,5 @@
-package net.creeperman16487;
+package net.creeperman16487.chefskiss;
 
-import net.creeperman16487.chefskiss.ChefskissMod;
 import net.creeperman16487.chefskiss.block.ModBlocks;
 import net.creeperman16487.chefskiss.item.ModItems;
 import net.minecraft.core.registries.Registries;
