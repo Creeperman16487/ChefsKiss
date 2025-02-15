@@ -2,8 +2,7 @@
   "credit": "Made with Blockbench",
   "texture_size": [48, 48],
   "textures": {
-    "0": "chefs_kiss:block/pizza_block",
-    "particle": "chefs_kiss:block/pizza_block"
+    "0": "chefs_kiss:block/pizza_block"
   },
   "elements": [
     {

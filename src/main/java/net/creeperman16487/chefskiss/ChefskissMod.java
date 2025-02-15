@@ -2,7 +2,9 @@ package net.creeperman16487.chefskiss;
 
 import com.mojang.logging.LogUtils;
 import net.creeperman16487.chefskiss.block.ModBlocks;
+import net.creeperman16487.chefskiss.effect.ModEffects;
 import net.creeperman16487.chefskiss.item.ModItems;
+import net.creeperman16487.chefskiss.potion.ModPotions;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.api.distmarker.Dist;
@@ -39,6 +41,8 @@ public class ChefskissMod {
         ModCreativeModeTab.register(modEventBus);
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModEffects.register(modEventBus);
+        ModPotions.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);

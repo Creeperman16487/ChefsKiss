@@ -32,6 +32,7 @@ public class ModItems {
                     .fireResistant()
                     .stacksTo(1)
                     .food(ModFoods.DOUGH)));
+
 //REGISTER ITEM METHOD
     private static RegistryObject<Item> registerItem(String name, Supplier<Item> item) {
         return ModItems.ITEMS.register(name,item);
@@ -44,4 +45,5 @@ public class ModItems {
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
+
 }
